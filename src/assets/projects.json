@@ -1,0 +1,219 @@
+{
+  "colorMap": {
+    "P5": "pink",
+    "Python": "blue", 
+    "Vue": "green",
+    "Javascript": "orange",
+    "Processing": "grey",
+    "Unity": "purple"
+  },
+  "projects": [
+    {
+      "name": "Velocity Selector Simulation",
+      "id": "velocity-selector-simulation",
+      "img": "velocitySelectorSimulation.png",
+      "type": "P5",
+      "info": {
+        "technologies": [
+          "HTML",
+          "Vanilla Javascript",
+          "Vanilla CSS",
+          "P5.js"
+        ],
+        "description": "A simple sketch that traces out the paths of particles with varying velocities inside a velocity selector. I made this because were were learning about them in physics class and I thought it would make a fun project. And it did.",
+        "onlineEditor": "https://editor.p5js.org/BrainstormerJr/sketches/CLP2ZKxYW",
+        "github": "https://github.com/brainstormerjr/velocitySelector",
+        "browser": "https://brainstormerjr.github.io/velocitySelector/",
+        "video": "https://www.youtube.com/watch?v=vD-vYDKH4yM",
+        "resources": [
+          { "name": "What is a velocity selector?", "link": "https://www.miniphysics.com/velocity-selector.html" }
+        ]
+      }
+    },
+    {
+      "name": "Timewinding",
+      "id": "timewinding",
+      "img": "timewinding.png",
+      "type": "Unity",
+      "info": {
+        "technologies": [
+          "Unity",
+          "Lean Tween (Unity asset)",
+          "Procreate",
+          "SFXR / BFXR",
+          "Audacity"
+        ],
+        "description": "My submission to the Brackeys Jam 2020.2, and my first game jam game. A platformer where you try to get to the end with no checkpoints, and can press a button to rewind to your position a few seconds ago. It was super fun to make, and remains one of my proudest projects to this day.",
+        "downloadProduct": "https://brainstormerjr.itch.io/timewinding#download",
+        "browser": "https://brainstormerjr.itch.io/timewinding",
+        "resources": [
+          { "name": "Brackeys Jam 2020.2", "link": "https://itch.io/jam/brackeys-4" }
+        ]
+      }
+    },
+    {
+      "name": "One of Many",
+      "id": "one-of-many",
+      "img": "oneOfMany.png",
+      "type": "Unity",
+      "info": {
+        "technologies": [
+          "Unity",
+          "Lean Tween (Unity asset)",
+          "Procreate",
+          "SFXR / BFXR",
+          "Audacity"
+        ],
+        "description": "My submission to the GMTK Game Jam 2021, and my second game jam game. I only had 2 days to make this game, so the tight time restriction plus terrible time management led to this project being one of my greatest failures. Without enough time to check out the built game, I realised that the game didn't run well on the web and it led to a terrible experience. At least it was a good learning opportunity.",
+        "downloadProduct": "https://brainstormerjr.itch.io/joined-together-game#download",
+        "resources": [
+          { "name": "GMTK Game Jam 2021", "link": "https://itch.io/jam/gmtk-2021" }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Dungeon",
+      "id": "chaos-dungeon",
+      "img": "chaosDungeon.png",
+      "type": "Unity",
+      "info": {
+        "technologies": [
+          "Unity",
+          "Lean Tween (Unity asset)",
+          "Procreate",
+          "SFXR / BFXR",
+          "Audacity"
+        ],
+        "description": "My submission to the Brackeys Game Jam 2021.2, and my third and most successful game jam game. With more game-making experience and a looser time restriction, I was able to polish the game and test it to ensure that people playing my game had the best time possible. All my effort paid off, as I managed to rank #19 in the 'fun' category and #24 in graphics, out of over 1700 entries.",
+        "browser": "https://brainstormerjr.itch.io/chaos-dungeon",
+        "downloadProduct": "https://brainstormerjr.itch.io/chaos-dungeon#download",
+        "resources": [
+          { "name": "Brackeys Game Jam 2021.2", "link": "https://itch.io/jam/brackeys-6" }
+        ]
+      }
+    },
+    {
+      "name": "Hello World OS",
+      "id": "hello-world-os",
+      "img": "helloWorldOS.png",
+      "type": "Javascript",
+      "info": {
+        "technologies": [
+          "HTML",
+          "Vanilla Javascript",
+          "Vanilla CSS",
+          "Chart.js",
+          "Github Pages"
+        ],
+        "description": "A troll open-source operating system with a very serious website. Originally just an experiment to learn about operating systems, but after discovering that I know absolutely nothing about OSDev, I decided to make a website to advertise the operating system and a YouTube video followed. The video has way too many views.",
+        "website": "http://www.helloworldos.co.uk/",
+        "video": "https://www.youtube.com/watch?v=DIuxi9XnBBk",
+        "github": "https://github.com/brainstormerjr/HelloWorldOS",
+        "resources": [
+          { "name": "OSDev.org", "link": "https://wiki.osdev.org/Expanded_Main_Page" },
+          { "name": "Chart.js", "link": "https://www.chartjs.org/" }
+        ]
+      }
+    },
+    {
+      "name": "Find Your Function",
+      "id": "find-your-function",
+      "img": "findYourFunction.png",
+      "type": "Javascript",
+      "info": {
+        "technologies": [
+          "HTML",
+          "Vanilla Javascript",
+          "Vanilla CSS",
+          "Firebase (Realtime Database & Auth)",
+          "Github Pages"
+        ],
+        "description": "A personality test that me and my roomate came up with: classifying people as different mathematical functions. There are 11 pesonality types, and each of the 10 questions will add/subtract points from each personality depending on which options you choose. The idea is extremely dumb, but I am proud of it nonetheless. It was also an interesting experience, trying to find and weigh questions to balance out different personalities.",
+        "website": "https://brainstormerjr.github.io/FindYourFunction/",
+        "github": "https://github.com/brainstormerjr/A-Level-Notes"
+      }
+    },
+    {
+      "name": "A Level Notes",
+      "id": "a-level-notes",
+      "img": "aLevelNotes.png",
+      "type": "Javascript",
+      "info": {
+        "technologies": [
+          "HTML",
+          "Vanilla Javascript",
+          "Vanilla CSS",
+          "Goodnotes (note-taking)"
+        ],
+        "description": "A small website where I uploaded most of my hand-written notes for A Level and shared with people because I am a nice person. A javascript sketch grabs all the notes and puts them in an html table element. That's it. My notes are glorious though.",
+        "website": "https://brainstormerjr.github.io/A-Level-Notes/",
+        "github": "https://github.com/brainstormerjr/A-Level-Notes",
+        "resources": [
+          { "name": "Physics and Math Tutor", "link": "https://www.physicsandmathstutor.com/" },
+          { "name": "Maths Made Easy", "link": "https://mathsmadeeasy.co.uk/" }
+        ]
+      }
+    },
+    {
+      "name": "AI Color Classifier",
+      "id": "color-classifier",
+      "img": "colorClassifier.png",
+      "type": "P5",
+      "info": {
+        "technologies": [
+          "HTML",
+          "Vanilla Javascript",
+          "Vanilla CSS",
+          "P5.js",
+          "Tensorflow.js",
+          "Firebase (Realtime Database & Auth)"
+        ],
+        "description": "Mainly followed a tutorial, but this is my first project that involves neural networks. This is an AI that will tell you what color something is when given a red, green and blue value. There is an interface to assign color labels to colors to create more training data, and another interface to see all training data available to the AI.",
+        "website": "https://brainstormerjr.github.io/colorClassifierDataCollection/trainIndex.html",
+        "github": "https://github.com/brainstormerjr/colorClassifierDataCollection",
+        "resources": [
+          { "name": "The Coding Train's Color Classifier Videos", "link": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bmMRCIoTi72aNWHo7epX4L" }
+        ]
+      }
+    },
+    {
+      "name": "Toothpick Sequence",
+      "id": "toothpick-sequence",
+      "img": "toothpickSequence.png",
+      "type": "P5",
+      "info": {
+        "technologies": [
+          "HTML",
+          "Vanilla Javascript",
+          "Vanilla CSS",
+          "P5.js"
+        ],
+        "description": "A simulator thing? Some sketch that will render the 'toothpick sequence' using P5. I learnt about this sequence on Numberphile and saw the Coding Train do it and I knew I just HAD to make a simulator myself. It can step through each iteration by itself, but becomes slow when there is just too much to render.",
+        "onlineEditor": "https://editor.p5js.org/BrainstormerJr/sketches/Ha9hCnIe5",
+        "resources":[
+          { "name": "Numberphile's video", "link": "https://www.youtube.com/watch?v=_UtCli1SgjI" },
+          { "name": "The Coding Train's video", "link": "https://www.youtube.com/watch?v=-OL_sw2MiYw" }
+        ]
+      }
+    },
+    {
+      "name": "Tic Tac Toe Minimax",
+      "id": "tic-tac-toe-minimax",
+      "img": "ticTacToeMinimax.png",
+      "type": "P5",
+      "info": {
+        "technologies": [
+          "HTML",
+          "Vanilla Javascript",
+          "Vanilla CSS",
+          "P5.js"
+        ],
+        "description": "A minimax algorithm that will play tic tac toe against you. It isn't super fun, because tic tac toe is such a small game that it can see all the way to the end of the game and play perfectly, and the AI will never lose. If you play perfectly, you will never lose either. The game just ends in a draw every single time. Inspired by the Coding Train's project.",
+        "onlineEditor": "https://editor.p5js.org/BrainstormerJr/sketches/f6fVJO6Pw",
+        "resources":[
+          { "name": "The Coding Train's video", "link": "https://www.youtube.com/watch?v=trKjYdBASyQ" }
+        ]
+      }
+    }
+  ]
+}

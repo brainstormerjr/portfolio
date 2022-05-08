@@ -1,0 +1,25 @@
+{
+  "colorMap": {
+    "Lifestyle": "pink",
+    "Technology": "blue",
+    "Science": "green"
+  },
+  "blogs": [
+    {
+      "title": "pV=nTR and E=h𝜈?",
+      "id": "pv-ntr-and-e-hv",
+      "img": "pV=nTR.png",
+      "type": "Science",
+      "snippet": "A rant about symbols in science",
+      "date": "Friday 6th May 2022"
+    },
+    {
+      "title": "Creating A Portfolio",
+      "id": "creating-a-portfolio",
+      "img": "creatingAPortfolio.png",
+      "type": "Lifestyle",
+      "snippet": "and a personal blog just because",
+      "date": "Thursday 5th May 2022"
+    }
+  ]
+}
