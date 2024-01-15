@@ -90,7 +90,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
+@import '../../main.scss';
 
 h1 {
   margin: 0vw;
@@ -101,22 +103,24 @@ h1 {
   height: auto;
   justify-self: center;
   margin-top: 6vw;
-}
 
-.image-container img {
-  margin: 0px auto;
-  width: 65%;
-  height: auto;
-  object-fit: scale-down;
-  border-radius: 3vw;
-  border-width: 1vw;
-  border-style: solid;
+  img {
+    margin: 0px auto;
+    width: 65%;
+    height: auto;
+    object-fit: scale-down;
+    border-radius: 3vw;
+    border-width: 1vw;
+    border-style: solid;
+  }
+
+  @include color-border("img")
 }
 
 .project-content {
   display: flex;
   margin-top: 3vw;
-  background: #eee;
+  background: $alt-color;
   padding: 5vw 0vw;
 }
 
@@ -126,18 +130,12 @@ p {
   text-align: left;
   flex-basis: 50vw;
   line-height: 3vw;
-}
 
-.project-box p {
-  text-align: center;
-  margin: 2vw 0vw;
-  font-size: 2vw;
-  flex-basis: 0vw;
-}
-
-.project-box p ul {
-  text-align: center;
-  list-style-type: none;
+  ul {
+    font-weight: normal;
+    margin-left: 3vw;
+    line-height: 2.5vw;
+  }
 }
 
 a {
@@ -146,14 +144,8 @@ a {
   font-size: 1.5vw;
 }
 
-p ul {
-  font-weight: normal;
-  margin-left: 3vw;
-  line-height: 2.5vw;
-}
-
 .project-box {
-  background: #fff;
+  background: $bg-color;
   flex-basis: 45vw;
   height: auto;
   margin: auto 2vw;
@@ -164,29 +156,40 @@ p ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* max-height: 10vw; */
-}
 
-.project-box .button {
-  width: 17vw;
-  height: 4vw;
-  margin: 0.5vw auto;
-  border-radius: 3vw;
-  border: 0.4vw solid var(--highlight-color);
-  color: var(--highlight-color);
-  transition-duration: 0.3s;
-  font-size: 1.5vw;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--background-color);
-}
+  p {
+    text-align: center;
+    margin: 2vw 0vw;
+    font-size: 2vw;
+    flex-basis: 0vw;
+  }
 
-.project-box .button:hover {
-  background: var(--highlight-color);
-  color: var(--background-color);
-  cursor: pointer;
+  p ul {
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .button {
+    width: 17vw;
+    height: 4vw;
+    margin: 0.5vw auto;
+    border-radius: 3vw;
+    border: 0.4vw solid $hl-color;
+    color: $hl-color;
+    transition-duration: 0.3s;
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $bg-color;
+
+    &:hover {
+      background: $hl-color;
+    color: $bg-color;
+    cursor: pointer;
+    }
+  }
 }
 
 .project-buttons {
@@ -259,23 +262,25 @@ p ul {
   }
 }
 
-.purple {
-  border-color: var(--purple);
-}
-.green {
-  border-color: var(--green);
-}
-.blue {
-  border-color: var(--blue);
-}
-.pink {
-  border-color: var(--pink);
-}
-.orange {
-  border-color: var(--orange);
-}
-.grey {
-  border-color: var(--grey);
-}
+
+
+// .purple {
+//   border-color: $purple;
+// }
+// .green {
+//   border-color: $green;
+// }
+// .blue {
+//   border-color: $blue;
+// }
+// .pink {
+//   border-color: $pink;
+// }
+// .orange {
+//   border-color: $orange;
+// }
+// .grey {
+//   border-color: $grey;
+// }
 
 </style>

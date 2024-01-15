@@ -2,9 +2,18 @@
   "colorMap": {
     "Lifestyle": "pink",
     "Technology": "blue",
-    "Science": "green"
+    "Science": "green",
+    "Business": "purple"
   },
   "blogs": [
+    {
+      "title": "Jamming With An Artist",
+      "id": "jamming-with-an-artist",
+      "img": "artist.png",
+      "type": "Lifestyle",
+      "snippet": "Making a game with a 'team'",
+      "date": "Wednesday 17th August 2022"
+    },
     {
       "title": "pV=nTR and E=h𝜈?",
       "id": "pv-ntr-and-e-hv",

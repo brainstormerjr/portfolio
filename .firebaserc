@@ -1,6 +1,7 @@
 {
   "projects": {
-    "portfolio": "portfolio-963de"
+    "default": "portfolio-963de"
   },
-  "targets": {}
+  "targets": {},
+  "etags": {}
 }

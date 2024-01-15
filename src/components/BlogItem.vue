@@ -27,27 +27,29 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import '../main.scss';
 
 .blog-item {
   height: 25vw;
   padding: 1.5vw;
   padding-bottom: 0.5vw;
-  border-radius: 1vw;
+  border-radius: 2vw;
   margin: 1vw;
   flex-basis: 25vw;
   transition-duration: 0.3s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   /* border: 0.5vw solid; */
-  background: #eee;
+  background: $alt-color;
 }
 
 .blog-item:hover {
   cursor: pointer;
-  color: var(--background-color);
+  color: $white;
 }
 
 .blog-item .blog-title {

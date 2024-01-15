@@ -26,14 +26,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import '../main.scss';
 
 .content {
   padding: 2em 0.5em;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 0.5vw dashed var(--highlight-color);
+  border-bottom: 0.5vw dashed $hl-color;
 }
 
 .content.flipped {
@@ -54,7 +56,7 @@ export default {
   height: auto;
   object-fit: scale-down;
   border-radius: 3vw;
-  border: 0.5vw solid var(--highlight-color);
+  border: 0.5vw solid $hl-color;
 }
 
 p {

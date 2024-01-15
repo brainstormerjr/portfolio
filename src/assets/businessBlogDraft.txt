@@ -1,0 +1,70 @@
+
+
+#BLOGSTART studying-business
+
+#PARAGRAPH
+Holy fuck. Holy fuck. Holy fuck. Check the "About Me" page. Check my list of skills. Check out all the projects I have done. Notice how none of them have anything to do with business? 
+
+#LINEBREAK
+#LINEBREAK
+
+#PARAGRAPH
+I just started doing some business courses at uni and I have to say it is on another level. And not the good kind of level.
+
+#LINEBREAK
+#LINEBREAK
+
+#PARAGRAPH
+Okay, it's not THAT bad. Economics is pretty interesting and suprisingly, it is about more than supply and demand. And even though accountants have OCD and need a protractor to draw every single T-Account, it is lowkey kinda satisfying to get the numbers to sum up perfectly. And making a pretty balance sheet in excel is actually very therapeutic. 5 stars (A) = 2 stars (L) + 3 stars (SE). 
+#LINEBREAK
+#PARAGRAPH
+(That's 3/5 stars in accountant language)
+
+#IMAGE
+economicsAndAccounting.png
+
+#PARAGRAPH
+But management. Management. MANAGEMENT. I wouldn't say I hate this subject with a burning passion. I think management is the devil's subject sent straight from the depths of hell, tailor-made to provide eternal never-ending suffering to STEM majors. It is designed to cause your braincells to decay in an exponential fashion. <s>If n is the number of braincells you have at time t after studying management, n ∝ e^(-t).</s> Sorry, that was too mathematical. As promised by the category this blog is filed under, this is a BUSINESS blog. No maths. Let me say this in a business way. Me emotional dissonance trying to pay attention in management lesson, cause job dissatisfaction and lower productivity. Big bad. Must try to improve by providing INTRINSIC incentives and motivations.
+
+#LINEBREAK
+#LINEBREAK
+
+#PARAGRAPH
+Nice. Done complaining (about management). Let's complain about accounting for a moment. Not as bad as management, but I do NOT like the words debit and credit. WHY DEBIT? WHY CREDIT? It has nothing to do with credit cards and debit cards (at least not an obvious connection. Maybe there's some relationship between the two that I don't know about?). It literally means "left hand side of the T-account" and "right hand side of the T-account". Can't we just use the mathematical terms LHS and RHS? LHS inventory, RHS cash. I like that.
+
+#LINEBREAK
+#LINEBREAK
+
+#PARAGRAPH
+Economics. I wish I had as much beef with economics as the other business subjects. Would make this blog so much more controversial and interesting. But I don't. But I do wish there was a way to actually get more solid and definitive answers in this subject. Right now I feel like when I am asked something economics I can just say whatever I want and I can find a way to justify it. Feels wrong. Not very science-ey.
+
+#LINEBREAK
+#LINEBREAK
+
+#PARAGRAPH
+Lastly, I want to draw your attention to the categorisation of this blog. This blog is classified under "Business", color-coded as purple. "Science" and "Technology" is color-coded as green and blue respectively, and "Lifestyle" is color-coded as pink. If you are not colorblind (if you are, my condolences), you would probably agree that pink and purple belong together, and blue and green belong together. That is because "Business" and "Lifestyle" belong together. Yeah, I said it. A business blog might as well be a lifestyle blog, just like how a technology blog might as well be a science blog.
+
+#LINEBREAK
+#LINEBREAK
+
+#PARAGRAPH
+And that is why there is no like/dislike button on this blog. <s>I don't want a signed integer underflow happening.</s> Sorry. Forgot about the whole "no science" thing.
+
+#LINEBREAK
+#LINEBREAK
+
+#LINK
+Apology to the business majors offended by this blog
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+#BLOGEND
+
+
+    {
+      "title": "Studying Business",
+      "id": "studying-business",
+      "img": "studyingBusiness.png",
+      "type": "Business",
+      "snippet": "The fact that business and bullshit start with the same letter isn't a coincidence",
+      "date": "Sunday 23th October 2022"
+    },

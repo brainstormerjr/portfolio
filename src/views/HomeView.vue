@@ -15,11 +15,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import '../main.scss';
 
 .home h1{
-  background: var(--accent-color);
-  color: var(--background-color);
+  background: $acc-color;
+  color: $white;
   margin-top: 4.5vw;
   padding: .5em;
 }

@@ -6,7 +6,8 @@
   </div>
   <h1>{{ blog.title }}</h1>
   <h3>{{ blog.snippet }}</h3>
-  <h5>{{ blog.date }}</h5>
+  <h4>{{ blog.date }}</h4>
+  <h5 :class="color">{{ blog.type }}</h5>
   <div class="blog-content">
     <!-- <p>
       <span v-for="(paragraph, index) in blog.content.paragraphs" :key="index">
@@ -97,7 +98,7 @@ export default {
 
     if (links.length > 0) {
       content += `<div v-if="blog.content.links" class="links">
-        Links mentioned in this blog:
+        Links relevant to this blog:
         <ul>
       `
       for (let i = 0; i < links.length; i++) {
@@ -124,7 +125,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
+@import '../../main.scss';
 
 h1 {
   margin: 0vw;
@@ -134,9 +137,23 @@ h3 {
   font-size: 2vw;
 }
 
+h4, h5 {
+  font-weight: normal;
+  font-size: 1.5vw;
+}
+
 h5 {
   font-weight: normal;
   font-size: 1.5vw;
+  border-radius: 3vw;
+  border-width: 0.5vw;
+  border-style: solid;
+  margin-right: 40vw;
+  margin-left: 40vw;
+  padding-left:2vw;
+  padding-right:2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 .image-container, .blog-content :deep() .image-container {
@@ -174,7 +191,7 @@ h5 {
   flex-direction: column;
   margin: 3vw auto;
   width: 80%;
-  background: #eee;
+  background: $alt-color;
   padding: 5vw 0vw;
   border-radius: 5vw;
 }
@@ -190,7 +207,7 @@ p, .blog-content :deep() p {
 
 .links, .blog-content :deep() .links {
   padding: 4vw;
-  background: var(--background-color);
+  background: $bg-color;
   border-radius: 4vw;
 }
 
@@ -218,8 +235,8 @@ a, .blog-content :deep() a {
     font-size: 5vw;
   }
 
-  h5, .blog-content :deep() h5 {
-    font-size: 4vw
+  h4, .blog-content :deep() h4, h5,  .blog-content :deep() h5{
+    font-size: 4vw;
   }
 
   .blog-content, .blog-content :deep() .blog-content {

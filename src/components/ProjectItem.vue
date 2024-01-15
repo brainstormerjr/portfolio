@@ -21,22 +21,24 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import '../main.scss';
 
 .project-item {
   width: 30vw;
   height: 17vw;
   padding: 1.5vw;
-  border-radius: 1vw;
+  border-radius: 2vw;
   margin: 1vw;
   flex-basis: 25vw;
   transition-duration: 0.3s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   /* border: 0.5vw solid; */
-  background: #eee;
+  background: $alt-color;
 }
 
 .project-item:hover {
@@ -64,7 +66,7 @@ export default {
   width: 100%;
   height: auto;
   object-fit: scale-down;
-  border-radius: 1vw;
+  border-radius: 3vw;
   border-width: 0.5vw;
   border-style: solid;
 }

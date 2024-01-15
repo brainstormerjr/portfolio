@@ -46,19 +46,19 @@ export default {
 
     const types = [
       "P5",
-      "Python",
-      "Vue",
+      "Flutter",
+      "Node",
       "Javascript",
-      "Processing",
+      "Python",
       "Unity",
     ]
 
     const filter = ref({
       P5: true,
       Python: true, 
-      Vue: true,
+      Node: true,
       Javascript: true,
-      Processing: true,
+      Flutter: true,
       Unity: true,
     })
 
@@ -83,14 +83,16 @@ export default {
 </script>
 
 
-<style>
+<style scoped lang="scss">
+
+@import '../../main.scss';
 
 .filter-buttons-container {
   position: sticky;
   top: 4.85vw;
-  background: #eee;
+  background: $alt-color;
   padding: 1vw 0vw;
-  border-bottom: 0.4vw solid var(--accent-color);
+  border-bottom: 0.4vw solid $acc-color;
   z-index: 10;
 }
 
@@ -104,16 +106,18 @@ export default {
   border-radius: 10vw;
   transition-duration: 0.3s;
   margin: 0vw 0.75vw;
-  border-color: #eee;
-}
+  border-color: $alt-color;
 
-.filter-button:hover {
-  cursor: pointer;
-  border-color: var(--accent-color);
-}
+  &:hover {
+    cursor: pointer;
+  border-color: $text-color;
+  }
 
-.filter-button.filter-active {
-  color: var(--background-color);
+  &.filter-active {
+    color: $white;
+  }
+
+  color: $text-color;
 }
 
 .projects-container {
@@ -126,6 +130,25 @@ export default {
   align-items: center;
   position: relative;
 
+}
+
+@media (orientation: portrait) {
+  .filter-buttons-container {
+    top: 15.8vw;
+    border-bottom-width: 1vw;
+  }
+
+  .filter-button {
+    width: 30vw;
+    height: 10vw;
+    font-size: 3.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .filter-button:hover {
+    border-width: 1vw;
+  }
 }
 
 .projects-enter-from {

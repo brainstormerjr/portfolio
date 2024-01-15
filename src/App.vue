@@ -27,13 +27,16 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss">
+
+@import './main.scss';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $text-color;
 }
 
 nav {
@@ -42,12 +45,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--highlight-color);
+  background: $hl-color;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 0.4vw solid var(--accent-color);
+  border-bottom: 0.4vw solid $acc-color;
   z-index: 10;
 }
 
@@ -62,26 +65,27 @@ nav a {
   margin: 0vw 0.5vw;
   height: 1.4vw;
   line-height: 1.4vw;
-  border-radius: 0.3vw;
+  border-radius: 1vw;
   float: left;
   display: block;
   transition-duration: 0.3s;
   min-width: 8vw;
-}
 
-nav a:hover {
-  background: hsl(263, 80%, 90%);
-}
+  &:hover {
+    background: hsl(263, 80%, 90%);
+    border-radius: 0.3vw;
+  }
 
-nav a.router-link-exact-active {
-  background: var(--accent-color);
-  color: var(--background-color);
+  &.router-link-exact-active {
+    background: $acc-color;
+    color: $white;
+  }
 }
 
 footer {
-  background: var(--highlight-color);
+  background: $hl-color;
   padding: 5vw;
-  color: var(--background-color);
+  color: $bg-color;
   min-height: 10vw;
 }
 

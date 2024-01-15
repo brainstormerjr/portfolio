@@ -3,7 +3,7 @@
     <h2>About Me</h2>
     <ImageTextFlex :flipped="false">
       <template v-slot:img>
-        <img src="../assets/thisGuy.png">
+        <img src="../assets/thisNewGuy.jpeg">
       </template>
       <p>Who am I? Oh where to begin. I am a:</p>
       <ul>
@@ -34,17 +34,20 @@
       </template>
       <p>Here are all the things I can do:</p>
       <ul>
-        <li>Use the following tools to a reasonable proficiency:</li>
+        <li>I mainly use the following tools (to a reasonable proficiency):</li>
         <ul>
-          <li>Unity / C#</li>
-          <li>JavaScript</li>
-          <li>Processing (Vanilla, P5 and Vue)</li>
+          <li>C# and Unity</li>
+          <li>HTML, CSS/SCSS, and Javascript</li>
+          <li>Processing and P5</li>
           <li>Python</li>
+          <li>Flutter and Dart</li>
         </ul>
         <li>Play around with these:</li>
         <ul>
           <li>Firebase</li>
+          <li>C and C++</li>
           <li>Tensorflow</li>
+          <li>MATLAB</li>
           <li>Blender</li>
           <li>Procreate</li>
           <li>Final Cut Pro X</li>
